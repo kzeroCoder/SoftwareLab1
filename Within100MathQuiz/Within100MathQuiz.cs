@@ -19,14 +19,14 @@ namespace Within100MathQuiz
         enum Status
         {
             Idle = 0,
-            Quizing = 1
+            Quiz = 1
         }
 
         private Status status;
         //难度
         private int _level = 1;
         //剩余时间
-        private int _timeLeft = 1;
+        private int _timeLeft = 25;
         //分数
         private int _score;
 
@@ -43,10 +43,10 @@ namespace Within100MathQuiz
                     Product.Text = "0";
                     Quotient.Text = "0";
                     ButtonStart.Text = @"要交卷了？";
-                    status = Status.Quizing;
+                    status = Status.Quiz;
                     break;
                 }
-                case Status.Quizing:
+                case Status.Quiz:
                 {
                     if(CheckCorrectness())
                     {
@@ -70,8 +70,11 @@ namespace Within100MathQuiz
                                 break;
                         }
                         str.Append(_score);
+                        str.Append(@"分！");
                         status = Status.Idle;
-                        MessageBox.Show(str.ToString());
+                        timer1.Stop();
+                        _timeLeft = 25;
+                        MessageBox.Show(str.ToString(), @"你的成绩是：");
                         ButtonStart.Text = @"开始测验？";
                     }
                     break;
@@ -124,7 +127,7 @@ namespace Within100MathQuiz
             
             _divideNumRight = _random.Next(1, 51);
             LabelRightDivideNum.Text = _divideNumRight.ToString();
-            _divideNumLeft = _random.Next(51) * _divideNumRight;
+            _divideNumLeft = _random.Next(1, 51) * _divideNumRight;
             LabelLeftDivideNum.Text = _divideNumLeft.ToString();
             //根据难度适当上调时间
             _timeLeft += _level * 5;
@@ -155,11 +158,11 @@ namespace Within100MathQuiz
 
                 if (sum == _addNumLeft + _addNumRight)
                     _score += 25;
-                if (difference == _minusNumLeft + _minusNumRight)
+                if (difference == _minusNumLeft - _minusNumRight)
                     _score += 25;
-                if (sum == _multiplyNumLeft + _multiplyNumRight)
+                if (product == _multiplyNumLeft * _multiplyNumRight)
                     _score += 25;
-                if (sum == _divideNumLeft + _divideNumRight)
+                if (quotient == _divideNumLeft / _divideNumRight)
                     _score += 25;
             }
             catch (ArgumentNullException e)
