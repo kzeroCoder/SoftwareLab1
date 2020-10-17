@@ -1,0 +1,15 @@
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.exe
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.deps.json
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.runtimeconfig.json
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.runtimeconfig.dev.json
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.dll
+E:\VS2019projects\calculator\calculator\calculator\bin\Release\netcoreapp3.1\calculator.pdb
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.csprojAssemblyReference.cache
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.Quiz.resources
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.csproj.GenerateResource.cache
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.AssemblyInfoInputs.cache
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.AssemblyInfo.cs
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.csproj.CoreCompileInputs.cache
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.dll
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.pdb
+E:\VS2019projects\calculator\calculator\calculator\obj\Release\netcoreapp3.1\calculator.genruntimeconfig.cache
