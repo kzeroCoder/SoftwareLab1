@@ -32,28 +32,30 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.LabelTimer = new System.Windows.Forms.Label();
             this.LabelTimerDescribe = new System.Windows.Forms.Label();
-            this.LabelLeftPlusNum = new System.Windows.Forms.Label();
-            this.LabelRightPlusNum = new System.Windows.Forms.Label();
-            this.LabelPlus = new System.Windows.Forms.Label();
-            this.LabelEqualSign_Add = new System.Windows.Forms.Label();
-            this.LabelEqualSign_Minus = new System.Windows.Forms.Label();
-            this.labelMinus = new System.Windows.Forms.Label();
-            this.LabelRightMinusNum = new System.Windows.Forms.Label();
-            this.LabelLeftMinusNum = new System.Windows.Forms.Label();
-            this.LabelEqualSign_Multiply = new System.Windows.Forms.Label();
-            this.LabelMultiply = new System.Windows.Forms.Label();
-            this.LabelRightMultiplyNum = new System.Windows.Forms.Label();
-            this.LabelLeftMultiplyNum = new System.Windows.Forms.Label();
-            this.LabelLeftDivideNum = new System.Windows.Forms.Label();
-            this.LabelRightDivideNum = new System.Windows.Forms.Label();
-            this.LabelDivide = new System.Windows.Forms.Label();
-            this.LabelEqualSign_Divide = new System.Windows.Forms.Label();
+            this.LabelLeftNum1 = new System.Windows.Forms.Label();
+            this.LabelRightNum1 = new System.Windows.Forms.Label();
+            this.LabelOp1 = new System.Windows.Forms.Label();
+            this.LabelEqualSign_1 = new System.Windows.Forms.Label();
+            this.LabelEqualSign_2 = new System.Windows.Forms.Label();
+            this.LabelOp2 = new System.Windows.Forms.Label();
+            this.LabelRightNum2 = new System.Windows.Forms.Label();
+            this.LabelLeftNum2 = new System.Windows.Forms.Label();
+            this.LabelEqualSign_3 = new System.Windows.Forms.Label();
+            this.LabelOp3 = new System.Windows.Forms.Label();
+            this.LabelRightNum3 = new System.Windows.Forms.Label();
+            this.LabelLeftNum3 = new System.Windows.Forms.Label();
+            this.LabelLeftNum4 = new System.Windows.Forms.Label();
+            this.LabelRightNum4 = new System.Windows.Forms.Label();
+            this.LabelOp4 = new System.Windows.Forms.Label();
+            this.LabelEqualSign_4 = new System.Windows.Forms.Label();
             this.ButtonStart = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Sum = new System.Windows.Forms.RichTextBox();
-            this.Difference = new System.Windows.Forms.RichTextBox();
-            this.Product = new System.Windows.Forms.RichTextBox();
-            this.Quotient = new System.Windows.Forms.RichTextBox();
+            this.Ans1 = new System.Windows.Forms.RichTextBox();
+            this.Ans2 = new System.Windows.Forms.RichTextBox();
+            this.Ans3 = new System.Windows.Forms.RichTextBox();
+            this.Ans4 = new System.Windows.Forms.RichTextBox();
+            this.button_pagedown = new System.Windows.Forms.Button();
+            this.button_pageup = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Label1
@@ -84,165 +86,168 @@
             this.LabelTimerDescribe.TabIndex = 2;
             this.LabelTimerDescribe.Text = "你还剩下:";
             // 
-            // LabelLeftPlusNum
+            // LabelLeftNum1
             // 
-            this.LabelLeftPlusNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelLeftPlusNum.Location = new System.Drawing.Point(32, 78);
-            this.LabelLeftPlusNum.Name = "LabelLeftPlusNum";
-            this.LabelLeftPlusNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelLeftPlusNum.TabIndex = 3;
-            this.LabelLeftPlusNum.Text = "?";
-            this.LabelLeftPlusNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.LabelLeftNum1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelLeftNum1.Location = new System.Drawing.Point(20, 78);
+            this.LabelLeftNum1.Name = "LabelLeftNum1";
+            this.LabelLeftNum1.Size = new System.Drawing.Size(80, 29);
+            this.LabelLeftNum1.TabIndex = 3;
+            this.LabelLeftNum1.Text = "?";
+            this.LabelLeftNum1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum1.UseCompatibleTextRendering = true;
             // 
-            // LabelRightPlusNum
+            // LabelRightNum1
             // 
-            this.LabelRightPlusNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelRightPlusNum.Location = new System.Drawing.Point(171, 78);
-            this.LabelRightPlusNum.Name = "LabelRightPlusNum";
-            this.LabelRightPlusNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelRightPlusNum.TabIndex = 3;
-            this.LabelRightPlusNum.Text = "?";
-            this.LabelRightPlusNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelRightNum1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelRightNum1.Location = new System.Drawing.Point(158, 78);
+            this.LabelRightNum1.Name = "LabelRightNum1";
+            this.LabelRightNum1.Size = new System.Drawing.Size(80, 29);
+            this.LabelRightNum1.TabIndex = 3;
+            this.LabelRightNum1.Text = "?";
+            this.LabelRightNum1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelPlus
+            // LabelOp1
             // 
-            this.LabelPlus.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelPlus.Location = new System.Drawing.Point(99, 78);
-            this.LabelPlus.Name = "LabelPlus";
-            this.LabelPlus.Size = new System.Drawing.Size(52, 29);
-            this.LabelPlus.TabIndex = 3;
-            this.LabelPlus.Text = "+";
-            this.LabelPlus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelOp1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelOp1.Location = new System.Drawing.Point(100, 78);
+            this.LabelOp1.Name = "LabelOp1";
+            this.LabelOp1.Size = new System.Drawing.Size(52, 29);
+            this.LabelOp1.TabIndex = 3;
+            this.LabelOp1.Text = "+";
+            this.LabelOp1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelEqualSign_Add
+            // LabelEqualSign_1
             // 
-            this.LabelEqualSign_Add.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelEqualSign_Add.Location = new System.Drawing.Point(238, 78);
-            this.LabelEqualSign_Add.Name = "LabelEqualSign_Add";
-            this.LabelEqualSign_Add.Size = new System.Drawing.Size(52, 29);
-            this.LabelEqualSign_Add.TabIndex = 3;
-            this.LabelEqualSign_Add.Text = "=";
-            this.LabelEqualSign_Add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelEqualSign_1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelEqualSign_1.Location = new System.Drawing.Point(238, 78);
+            this.LabelEqualSign_1.Name = "LabelEqualSign_1";
+            this.LabelEqualSign_1.Size = new System.Drawing.Size(52, 29);
+            this.LabelEqualSign_1.TabIndex = 3;
+            this.LabelEqualSign_1.Text = "=";
+            this.LabelEqualSign_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelEqualSign_Minus
+            // LabelEqualSign_2
             // 
-            this.LabelEqualSign_Minus.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelEqualSign_Minus.Location = new System.Drawing.Point(238, 147);
-            this.LabelEqualSign_Minus.Name = "LabelEqualSign_Minus";
-            this.LabelEqualSign_Minus.Size = new System.Drawing.Size(52, 29);
-            this.LabelEqualSign_Minus.TabIndex = 3;
-            this.LabelEqualSign_Minus.Text = "=";
-            this.LabelEqualSign_Minus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelEqualSign_2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelEqualSign_2.Location = new System.Drawing.Point(238, 147);
+            this.LabelEqualSign_2.Name = "LabelEqualSign_2";
+            this.LabelEqualSign_2.Size = new System.Drawing.Size(52, 29);
+            this.LabelEqualSign_2.TabIndex = 3;
+            this.LabelEqualSign_2.Text = "=";
+            this.LabelEqualSign_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMinus
+            // LabelOp2
             // 
-            this.labelMinus.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMinus.Location = new System.Drawing.Point(99, 147);
-            this.labelMinus.Name = "labelMinus";
-            this.labelMinus.Size = new System.Drawing.Size(52, 29);
-            this.labelMinus.TabIndex = 3;
-            this.labelMinus.Text = "-";
-            this.labelMinus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelOp2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelOp2.Location = new System.Drawing.Point(99, 147);
+            this.LabelOp2.Name = "LabelOp2";
+            this.LabelOp2.Size = new System.Drawing.Size(52, 29);
+            this.LabelOp2.TabIndex = 3;
+            this.LabelOp2.Text = "-";
+            this.LabelOp2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelRightMinusNum
+            // LabelRightNum2
             // 
-            this.LabelRightMinusNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelRightMinusNum.Location = new System.Drawing.Point(171, 147);
-            this.LabelRightMinusNum.Name = "LabelRightMinusNum";
-            this.LabelRightMinusNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelRightMinusNum.TabIndex = 3;
-            this.LabelRightMinusNum.Text = "?";
-            this.LabelRightMinusNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelRightNum2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelRightNum2.Location = new System.Drawing.Point(158, 147);
+            this.LabelRightNum2.Name = "LabelRightNum2";
+            this.LabelRightNum2.Size = new System.Drawing.Size(80, 29);
+            this.LabelRightNum2.TabIndex = 3;
+            this.LabelRightNum2.Text = "?";
+            this.LabelRightNum2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelLeftMinusNum
+            // LabelLeftNum2
             // 
-            this.LabelLeftMinusNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelLeftMinusNum.Location = new System.Drawing.Point(32, 147);
-            this.LabelLeftMinusNum.Name = "LabelLeftMinusNum";
-            this.LabelLeftMinusNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelLeftMinusNum.TabIndex = 3;
-            this.LabelLeftMinusNum.Text = "?";
-            this.LabelLeftMinusNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelLeftNum2.Location = new System.Drawing.Point(20, 147);
+            this.LabelLeftNum2.Name = "LabelLeftNum2";
+            this.LabelLeftNum2.Size = new System.Drawing.Size(80, 29);
+            this.LabelLeftNum2.TabIndex = 3;
+            this.LabelLeftNum2.Text = "?";
+            this.LabelLeftNum2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum2.Click += new System.EventHandler(this.LabelLeftNum2_Click);
             // 
-            // LabelEqualSign_Multiply
+            // LabelEqualSign_3
             // 
-            this.LabelEqualSign_Multiply.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelEqualSign_Multiply.Location = new System.Drawing.Point(238, 215);
-            this.LabelEqualSign_Multiply.Name = "LabelEqualSign_Multiply";
-            this.LabelEqualSign_Multiply.Size = new System.Drawing.Size(52, 29);
-            this.LabelEqualSign_Multiply.TabIndex = 3;
-            this.LabelEqualSign_Multiply.Text = "=";
-            this.LabelEqualSign_Multiply.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelEqualSign_3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelEqualSign_3.Location = new System.Drawing.Point(238, 215);
+            this.LabelEqualSign_3.Name = "LabelEqualSign_3";
+            this.LabelEqualSign_3.Size = new System.Drawing.Size(52, 29);
+            this.LabelEqualSign_3.TabIndex = 3;
+            this.LabelEqualSign_3.Text = "=";
+            this.LabelEqualSign_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelMultiply
+            // LabelOp3
             // 
-            this.LabelMultiply.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelMultiply.Location = new System.Drawing.Point(99, 215);
-            this.LabelMultiply.Name = "LabelMultiply";
-            this.LabelMultiply.Size = new System.Drawing.Size(52, 29);
-            this.LabelMultiply.TabIndex = 3;
-            this.LabelMultiply.Text = "*";
-            this.LabelMultiply.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelOp3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelOp3.Location = new System.Drawing.Point(99, 215);
+            this.LabelOp3.Name = "LabelOp3";
+            this.LabelOp3.Size = new System.Drawing.Size(52, 29);
+            this.LabelOp3.TabIndex = 3;
+            this.LabelOp3.Text = "*";
+            this.LabelOp3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelRightMultiplyNum
+            // LabelRightNum3
             // 
-            this.LabelRightMultiplyNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelRightMultiplyNum.Location = new System.Drawing.Point(171, 215);
-            this.LabelRightMultiplyNum.Name = "LabelRightMultiplyNum";
-            this.LabelRightMultiplyNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelRightMultiplyNum.TabIndex = 3;
-            this.LabelRightMultiplyNum.Text = "?";
-            this.LabelRightMultiplyNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelRightNum3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelRightNum3.Location = new System.Drawing.Point(158, 215);
+            this.LabelRightNum3.Name = "LabelRightNum3";
+            this.LabelRightNum3.Size = new System.Drawing.Size(80, 29);
+            this.LabelRightNum3.TabIndex = 3;
+            this.LabelRightNum3.Text = "?";
+            this.LabelRightNum3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelLeftMultiplyNum
+            // LabelLeftNum3
             // 
-            this.LabelLeftMultiplyNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelLeftMultiplyNum.Location = new System.Drawing.Point(32, 215);
-            this.LabelLeftMultiplyNum.Name = "LabelLeftMultiplyNum";
-            this.LabelLeftMultiplyNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelLeftMultiplyNum.TabIndex = 3;
-            this.LabelLeftMultiplyNum.Text = "?";
-            this.LabelLeftMultiplyNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelLeftNum3.Location = new System.Drawing.Point(20, 215);
+            this.LabelLeftNum3.Name = "LabelLeftNum3";
+            this.LabelLeftNum3.Size = new System.Drawing.Size(80, 29);
+            this.LabelLeftNum3.TabIndex = 3;
+            this.LabelLeftNum3.Text = "?";
+            this.LabelLeftNum3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelLeftDivideNum
+            // LabelLeftNum4
             // 
-            this.LabelLeftDivideNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelLeftDivideNum.Location = new System.Drawing.Point(32, 280);
-            this.LabelLeftDivideNum.Name = "LabelLeftDivideNum";
-            this.LabelLeftDivideNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelLeftDivideNum.TabIndex = 3;
-            this.LabelLeftDivideNum.Text = "?";
-            this.LabelLeftDivideNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelLeftNum4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelLeftNum4.Location = new System.Drawing.Point(20, 280);
+            this.LabelLeftNum4.Name = "LabelLeftNum4";
+            this.LabelLeftNum4.Size = new System.Drawing.Size(80, 29);
+            this.LabelLeftNum4.TabIndex = 3;
+            this.LabelLeftNum4.Text = "?";
+            this.LabelLeftNum4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelRightDivideNum
+            // LabelRightNum4
             // 
-            this.LabelRightDivideNum.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelRightDivideNum.Location = new System.Drawing.Point(171, 280);
-            this.LabelRightDivideNum.Name = "LabelRightDivideNum";
-            this.LabelRightDivideNum.Size = new System.Drawing.Size(52, 29);
-            this.LabelRightDivideNum.TabIndex = 3;
-            this.LabelRightDivideNum.Text = "?";
-            this.LabelRightDivideNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelRightNum4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelRightNum4.Location = new System.Drawing.Point(158, 280);
+            this.LabelRightNum4.Name = "LabelRightNum4";
+            this.LabelRightNum4.Size = new System.Drawing.Size(80, 29);
+            this.LabelRightNum4.TabIndex = 3;
+            this.LabelRightNum4.Text = "?";
+            this.LabelRightNum4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelDivide
+            // LabelOp4
             // 
-            this.LabelDivide.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelDivide.Location = new System.Drawing.Point(99, 280);
-            this.LabelDivide.Name = "LabelDivide";
-            this.LabelDivide.Size = new System.Drawing.Size(52, 29);
-            this.LabelDivide.TabIndex = 3;
-            this.LabelDivide.Text = "/";
-            this.LabelDivide.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelOp4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelOp4.Location = new System.Drawing.Point(99, 280);
+            this.LabelOp4.Name = "LabelOp4";
+            this.LabelOp4.Size = new System.Drawing.Size(52, 29);
+            this.LabelOp4.TabIndex = 3;
+            this.LabelOp4.Text = "/";
+            this.LabelOp4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LabelEqualSign_Divide
+            // LabelEqualSign_4
             // 
-            this.LabelEqualSign_Divide.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelEqualSign_Divide.Location = new System.Drawing.Point(238, 280);
-            this.LabelEqualSign_Divide.Name = "LabelEqualSign_Divide";
-            this.LabelEqualSign_Divide.Size = new System.Drawing.Size(52, 29);
-            this.LabelEqualSign_Divide.TabIndex = 3;
-            this.LabelEqualSign_Divide.Text = "=";
-            this.LabelEqualSign_Divide.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LabelEqualSign_4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelEqualSign_4.Location = new System.Drawing.Point(238, 280);
+            this.LabelEqualSign_4.Name = "LabelEqualSign_4";
+            this.LabelEqualSign_4.Size = new System.Drawing.Size(52, 29);
+            this.LabelEqualSign_4.TabIndex = 3;
+            this.LabelEqualSign_4.Text = "=";
+            this.LabelEqualSign_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ButtonStart
             // 
@@ -260,41 +265,63 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Sum
+            // Ans1
             // 
-            this.Sum.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Sum.Location = new System.Drawing.Point(296, 78);
-            this.Sum.Name = "Sum";
-            this.Sum.Size = new System.Drawing.Size(80, 46);
-            this.Sum.TabIndex = 6;
-            this.Sum.Text = "";
+            this.Ans1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans1.Location = new System.Drawing.Point(296, 75);
+            this.Ans1.Name = "Ans1";
+            this.Ans1.Size = new System.Drawing.Size(80, 46);
+            this.Ans1.TabIndex = 6;
+            this.Ans1.Text = "";
             // 
-            // Difference
+            // Ans2
             // 
-            this.Difference.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Difference.Location = new System.Drawing.Point(296, 144);
-            this.Difference.Name = "Difference";
-            this.Difference.Size = new System.Drawing.Size(80, 46);
-            this.Difference.TabIndex = 6;
-            this.Difference.Text = "";
+            this.Ans2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans2.Location = new System.Drawing.Point(296, 144);
+            this.Ans2.Name = "Ans2";
+            this.Ans2.Size = new System.Drawing.Size(80, 46);
+            this.Ans2.TabIndex = 6;
+            this.Ans2.Text = "";
             // 
-            // Product
+            // Ans3
             // 
-            this.Product.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Product.Location = new System.Drawing.Point(296, 212);
-            this.Product.Name = "Product";
-            this.Product.Size = new System.Drawing.Size(80, 46);
-            this.Product.TabIndex = 6;
-            this.Product.Text = "";
+            this.Ans3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans3.Location = new System.Drawing.Point(296, 212);
+            this.Ans3.Name = "Ans3";
+            this.Ans3.Size = new System.Drawing.Size(80, 46);
+            this.Ans3.TabIndex = 6;
+            this.Ans3.Text = "";
             // 
-            // Quotient
+            // Ans4
             // 
-            this.Quotient.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Quotient.Location = new System.Drawing.Point(296, 277);
-            this.Quotient.Name = "Quotient";
-            this.Quotient.Size = new System.Drawing.Size(80, 46);
-            this.Quotient.TabIndex = 6;
-            this.Quotient.Text = "";
+            this.Ans4.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans4.Location = new System.Drawing.Point(296, 277);
+            this.Ans4.Name = "Ans4";
+            this.Ans4.Size = new System.Drawing.Size(80, 46);
+            this.Ans4.TabIndex = 6;
+            this.Ans4.Text = "";
+            // 
+            // button_pagedown
+            // 
+            this.button_pagedown.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_pagedown.Location = new System.Drawing.Point(475, 191);
+            this.button_pagedown.Name = "button_pagedown";
+            this.button_pagedown.Size = new System.Drawing.Size(79, 42);
+            this.button_pagedown.TabIndex = 1;
+            this.button_pagedown.Text = "下一页";
+            this.button_pagedown.UseVisualStyleBackColor = true;
+            this.button_pagedown.Click += new System.EventHandler(this.ButtonPageDown_Click);
+            // 
+            // button_pageup
+            // 
+            this.button_pageup.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_pageup.Location = new System.Drawing.Point(475, 134);
+            this.button_pageup.Name = "button_pageup";
+            this.button_pageup.Size = new System.Drawing.Size(79, 42);
+            this.button_pageup.TabIndex = 1;
+            this.button_pageup.Text = "上一页";
+            this.button_pageup.UseVisualStyleBackColor = true;
+            this.button_pageup.Click += new System.EventHandler(this.ButtonPageUp_Click);
             // 
             // Quiz
             // 
@@ -302,27 +329,29 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(579, 368);
-            this.Controls.Add(this.Quotient);
-            this.Controls.Add(this.Product);
-            this.Controls.Add(this.Difference);
-            this.Controls.Add(this.Sum);
+            this.Controls.Add(this.button_pageup);
+            this.Controls.Add(this.button_pagedown);
+            this.Controls.Add(this.Ans4);
+            this.Controls.Add(this.Ans3);
+            this.Controls.Add(this.Ans2);
+            this.Controls.Add(this.Ans1);
             this.Controls.Add(this.ButtonStart);
-            this.Controls.Add(this.LabelEqualSign_Divide);
-            this.Controls.Add(this.LabelDivide);
-            this.Controls.Add(this.LabelRightDivideNum);
-            this.Controls.Add(this.LabelLeftDivideNum);
-            this.Controls.Add(this.LabelLeftMultiplyNum);
-            this.Controls.Add(this.LabelRightMultiplyNum);
-            this.Controls.Add(this.LabelMultiply);
-            this.Controls.Add(this.LabelEqualSign_Multiply);
-            this.Controls.Add(this.LabelLeftMinusNum);
-            this.Controls.Add(this.LabelRightMinusNum);
-            this.Controls.Add(this.labelMinus);
-            this.Controls.Add(this.LabelEqualSign_Minus);
-            this.Controls.Add(this.LabelEqualSign_Add);
-            this.Controls.Add(this.LabelPlus);
-            this.Controls.Add(this.LabelRightPlusNum);
-            this.Controls.Add(this.LabelLeftPlusNum);
+            this.Controls.Add(this.LabelEqualSign_4);
+            this.Controls.Add(this.LabelOp4);
+            this.Controls.Add(this.LabelRightNum4);
+            this.Controls.Add(this.LabelLeftNum4);
+            this.Controls.Add(this.LabelLeftNum3);
+            this.Controls.Add(this.LabelRightNum3);
+            this.Controls.Add(this.LabelOp3);
+            this.Controls.Add(this.LabelEqualSign_3);
+            this.Controls.Add(this.LabelLeftNum2);
+            this.Controls.Add(this.LabelRightNum2);
+            this.Controls.Add(this.LabelOp2);
+            this.Controls.Add(this.LabelEqualSign_2);
+            this.Controls.Add(this.LabelEqualSign_1);
+            this.Controls.Add(this.LabelOp1);
+            this.Controls.Add(this.LabelRightNum1);
+            this.Controls.Add(this.LabelLeftNum1);
             this.Controls.Add(this.LabelTimerDescribe);
             this.Controls.Add(this.LabelTimer);
             this.Controls.Add(this.Label1);
@@ -340,28 +369,30 @@
         private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Label LabelTimer;
         private System.Windows.Forms.Label LabelTimerDescribe;
-        private System.Windows.Forms.Label LabelLeftPlusNum;
-        private System.Windows.Forms.Label LabelRightPlusNum;
-        private System.Windows.Forms.Label LabelPlus;
-        private System.Windows.Forms.Label LabelEqualSign_Add;
-        private System.Windows.Forms.Label LabelEqualSign_Minus;
-        private System.Windows.Forms.Label labelMinus;
-        private System.Windows.Forms.Label LabelRightMinusNum;
-        private System.Windows.Forms.Label LabelLeftMinusNum;
-        private System.Windows.Forms.Label LabelEqualSign_Multiply;
-        private System.Windows.Forms.Label LabelMultiply;
-        private System.Windows.Forms.Label LabelRightMultiplyNum;
-        private System.Windows.Forms.Label LabelLeftMultiplyNum;
-        private System.Windows.Forms.Label LabelLeftDivideNum;
-        private System.Windows.Forms.Label LabelRightDivideNum;
-        private System.Windows.Forms.Label LabelDivide;
-        private System.Windows.Forms.Label LabelEqualSign_Divide;
+        private System.Windows.Forms.Label LabelLeftNum1;
+        private System.Windows.Forms.Label LabelRightNum1;
+        private System.Windows.Forms.Label LabelOp1;
+        private System.Windows.Forms.Label LabelEqualSign_1;
+        private System.Windows.Forms.Label LabelEqualSign_2;
+        private System.Windows.Forms.Label LabelOp2;
+        private System.Windows.Forms.Label LabelRightNum2;
+        private System.Windows.Forms.Label LabelLeftNum2;
+        private System.Windows.Forms.Label LabelEqualSign_3;
+        private System.Windows.Forms.Label LabelOp3;
+        private System.Windows.Forms.Label LabelRightNum3;
+        private System.Windows.Forms.Label LabelLeftNum3;
+        private System.Windows.Forms.Label LabelLeftNum4;
+        private System.Windows.Forms.Label LabelRightNum4;
+        private System.Windows.Forms.Label LabelOp4;
+        private System.Windows.Forms.Label LabelEqualSign_4;
         private System.Windows.Forms.Button ButtonStart;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.RichTextBox Sum;
-        private System.Windows.Forms.RichTextBox Difference;
-        private System.Windows.Forms.RichTextBox Product;
-        private System.Windows.Forms.RichTextBox Quotient;
+        private System.Windows.Forms.RichTextBox Ans1;
+        private System.Windows.Forms.RichTextBox Ans2;
+        private System.Windows.Forms.RichTextBox Ans3;
+        private System.Windows.Forms.RichTextBox Ans4;
+        private System.Windows.Forms.Button button_pagedown;
+        private System.Windows.Forms.Button button_pageup;
     }
 }
 

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS2019projects\\calculator\\Within100MathQuiz\\Within100MathQuiz\\Within100MathQuiz.csproj": {}
+    "C:\\Users\\Sans\\Desktop\\SoftwareLab1\\Within100MathQuiz\\Within100MathQuiz.csproj": {}
   },
   "projects": {
-    "E:\\VS2019projects\\calculator\\Within100MathQuiz\\Within100MathQuiz\\Within100MathQuiz.csproj": {
+    "C:\\Users\\Sans\\Desktop\\SoftwareLab1\\Within100MathQuiz\\Within100MathQuiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2019projects\\calculator\\Within100MathQuiz\\Within100MathQuiz\\Within100MathQuiz.csproj",
+        "projectUniqueName": "C:\\Users\\Sans\\Desktop\\SoftwareLab1\\Within100MathQuiz\\Within100MathQuiz.csproj",
         "projectName": "Within100MathQuiz",
-        "projectPath": "E:\\VS2019projects\\calculator\\Within100MathQuiz\\Within100MathQuiz\\Within100MathQuiz.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2019projects\\calculator\\Within100MathQuiz\\Within100MathQuiz\\obj\\",
+        "projectPath": "C:\\Users\\Sans\\Desktop\\SoftwareLab1\\Within100MathQuiz\\Within100MathQuiz.csproj",
+        "packagesPath": "C:\\Users\\Sans\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sans\\Desktop\\SoftwareLab1\\Within100MathQuiz\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
