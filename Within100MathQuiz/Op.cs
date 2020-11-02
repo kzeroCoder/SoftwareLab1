@@ -53,7 +53,6 @@ namespace Within100MathQuiz
     internal class Multiply : Op
     {
         private readonly Random _random = new Random();
-		private int j;	//第二次手工修改
 
         public bool check(int left, int right, int ans)
         {
