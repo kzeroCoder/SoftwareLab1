@@ -31,6 +31,7 @@ namespace Within100MathQuiz
     internal class Divide : Op
     {
         private readonly Random _random = new Random();
+		private int i;	//手动更改
 
         public bool check(int left, int right, int ans)
         {
